@@ -1,0 +1,119 @@
+.line {
+    padding: 90px 0 55px;
+}
+.line-title {
+    text-align: left;
+    margin-bottom: 55px;
+}
+.line__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 145px;
+}
+.line-item {
+    width: 100%;
+    display: flex;
+    &--balance {
+        & .line-item__main-bg, .line-item__bg {
+            background-color: #00B5E2;
+        }
+        & .line-item__img {
+            max-width: 522px;
+            right: -270px;
+            top: -88px;
+        }
+    }
+    &--up {
+        & .line-item__main-bg {
+            padding-left: 478px;
+        }
+        & .line-item__main-bg, .line-item__bg {
+            background-color: $up;
+        }
+        & .line-item__img {
+            max-width: 601px;
+            left: -47px;
+            top: -96px;
+        }
+    }
+    &--down {
+        & .line-item__main-bg, .line-item__bg {
+            background-color: $down;
+        }
+        & .line-item__img {
+            max-width: 598px;
+            right: -307px;
+            top: -96px;
+        }
+    }
+}
+.line-item__main-bg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 50px 0 50px 75px;
+}
+.line-item__bg {
+    width: 100%;
+    max-width: 80px;
+}
+.line-item__2-bg {
+    opacity: 0.8;
+}
+.line-item__3-bg {
+    opacity: 0.6;
+}
+.line-item__4-bg {
+    opacity: 0.4;
+}
+.line-item__5-bg {
+    opacity: 0.2;
+}
+.line-item__content {
+    color: $white_text;
+}
+.line-item__suptitle {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.line-item__title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+}
+.line-item__list {
+    margin: 20px 0;
+    padding-left: 30px;
+    list-style: disc;
+    & li {
+        font-family: "Arial";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+}
+.line-item__use__title {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 24px;
+}
+.line-item__use__text {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.line-item__btns {
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+.line-item__img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}

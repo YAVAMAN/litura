@@ -1,0 +1,76 @@
+.b-intro {
+    background-image: url('../../img/b-intro-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.b-intro__inner {
+    padding: 207px 0 45px;
+    position: relative;
+}
+.b-intro-breadcrumbs {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: $white_text;
+    margin-bottom: 16px;
+    & a {
+        text-decoration: underline;
+    }
+}
+.b-intro-title {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 64px;
+    color: $white_text;
+    margin-bottom: 24px;
+}
+.b-intro-subtitle {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 36px;
+    color: $white_text;
+    margin-bottom: 24px;
+}
+.b-intro-btns {
+    margin-bottom: 24px;
+}
+.b-intro-bttn {
+    & + .b-intro-bttn {
+        margin-left: 23px;
+    }
+}
+.b-intro-advantages {
+    width: 100%;
+    max-width: 926px;
+    display: flex;
+    justify-content: space-between;
+}
+.b-intro-advantages__item {
+    display: flex;
+    flex-direction: column;
+    
+}
+.b-intro-advantages__icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+.b-intro-advantages__text {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: $white_text;
+}
+.b-intro-img {
+    width: 100%;
+    max-width: 595px;
+    position: absolute;
+    bottom: -122px;
+    right: 70px;
+    z-index: 1;
+}

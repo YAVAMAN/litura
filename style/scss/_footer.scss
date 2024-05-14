@@ -1,0 +1,32 @@
+.footer {
+    background-color: #00b5e2;
+    padding: 40px 0;
+}
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo {
+    width: 100%;
+    max-width: 233px;
+}
+.footer-nav {
+    width: 100%;
+    max-width: 978px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-nav__item {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: $white_text;
+    transition: all 0.2s linear;
+    &:hover {
+        color: $white_text;
+        transition: all 0.2s linear;
+    }
+}

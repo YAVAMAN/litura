@@ -1,0 +1,34 @@
+.blog-intro {
+    background-image: url('../../img/blog-intro-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-intro__inner {
+    padding: 207px 0 215px;
+}
+.blog-intro-breadcrumbs {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: $white_text;
+    margin-bottom: 16px;
+    & a {
+        text-decoration: underline;
+    }
+}
+.blog-intro-title {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 64px;
+    color: $white_text;
+    margin-bottom: 16px;
+}
+.blog-intro-subtitle {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 24px;
+    color: $white_text;
+    margin-bottom: 24px;
+}

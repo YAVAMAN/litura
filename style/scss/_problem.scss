@@ -1,0 +1,45 @@
+.problem {
+    background-color: #F7F7F7;
+    padding: 60px 0 93px;
+}
+.problem-title {
+    margin-bottom: 58px;
+}
+.problem__inner {
+    width: 100%;
+    max-width: 1276px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 47px;
+}
+.problem-item {
+    width: 100%;
+    max-width: 320px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    &:nth-child(3) {
+        text-align: left;
+    }
+}
+.problem-item__text {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: $text;
+}
+.problem-solution {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: $text;
+    margin-bottom: 50px;
+}
+.problem-btn {
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+.blog {
+    padding: 0 0 56px;
+}
+.blog__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -184px -53px -20px;
+    // position: relative;
+    // top: -164px;
+}
+.blog-item {
+    width: 100%;
+    max-width: 320px;
+    margin: 20px 53px;
+}
+.blog-item__img {
+    margin-bottom: 24px;
+}
+.blog-item__text {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 24px;
+    color: $primary;
+}

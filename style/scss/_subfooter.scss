@@ -1,0 +1,38 @@
+.subfooter {
+    padding: 42px 0 88px;
+}
+.subfooter__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subfooter-copy {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777;
+}
+.subfooter-links {
+    & a {
+        display: block;
+        font-family: "Arial";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.4;
+        text-decoration: underline;
+        text-align: center;
+        color: #00b5e2;
+    }
+}
+.subfooter-author {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: right;
+    color: #424242;
+    & a {
+        color: #fe045e;    
+    }
+}
