@@ -530,7 +530,7 @@ body {
 }
 
 .intro {
-  background-image: url("../../img/intro-bg.jpg");
+  background-image: url("../img/intro-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -624,7 +624,7 @@ body {
 }
 
 .b-intro {
-  background-image: url("../../img/b-intro-bg.jpg");
+  background-image: url("../img/b-intro-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -722,7 +722,7 @@ body {
 }
 
 .pos-intro {
-  background-image: url("../../img/pos-intro-bg.jpg");
+  background-image: url("../img/pos-intro-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -761,7 +761,7 @@ body {
 }
 
 .blog-intro {
-  background-image: url("../../img/blog-intro-bg.jpg");
+  background-image: url("../img/blog-intro-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -853,7 +853,7 @@ body {
 }
 
 .quiz {
-  background-image: url("../../img/quiz-bg.jpg");
+  background-image: url("../img/quiz-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -933,7 +933,7 @@ body {
 }
 
 .work {
-  background-image: url("../../img/how-it-works-bg.jpg");
+  background-image: url("../img/how-it-works-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1573,7 +1573,7 @@ body {
 
 .b-work {
   padding: 93px 0 110px;
-  background-image: url("../../img/b-work-bg.jpg");
+  background-image: url("../img/b-work-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
